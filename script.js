@@ -4,6 +4,7 @@ const qr=document.getElementById("qr");
 const download=document.getElementById("download");
 download.style.opacity=0;
 qr.style.opacity=0;
+img.style.opacity=0;
 btn.addEventListener("click",()=>{
     const val=input.value.trim();
     qr.innerHTML="";
@@ -18,6 +19,7 @@ btn.addEventListener("click",()=>{
         });
         download.style.opacity=1;
         qr.style.opacity=1;
+        img.style.opacity=1;
     }
     else{
         alert("Enter something like link or text to generate (pigga)!");
