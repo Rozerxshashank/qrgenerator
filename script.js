@@ -2,6 +2,7 @@ const input=document.getElementById("input");
 const btn=document.getElementById("btn");
 const qr=document.getElementById("qr");
 const download=document.getElementById("download");
+const img=document.getElementById("qr-logo");
 download.style.opacity=0;
 qr.style.opacity=0;
 img.style.opacity=0;
